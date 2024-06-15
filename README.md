@@ -7,3 +7,5 @@ llegar a identificar oportunidades para que las personas puedan antelar vías al
 
 Proyecto que consta de una arquitectura de microservicios la cual se basa en un api echa en Flask la cual retornara 
 las coordenadas en formato json al front end para ser renderizadas en un mapa de Google Maps.
+
+Se debe tener en ceunta que el roceso se llevo a cabo conconexión a drive, donde se leen archivos y donde se cargar y se vuelven a leer segun el proceso, lo archivos van anexos en formato excel ya que asi se estabelcen en el drive. Por ende para poder ejecutar el proyecto, se debe establecer inicialmente la ruta del drive con el archivo inicial "historico_siniestros_kennedy_zonas.xlsx"
